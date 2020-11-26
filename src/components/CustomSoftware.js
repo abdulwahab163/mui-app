@@ -62,7 +62,7 @@ export default function CustomSoftware({ setSelectedIndex, setValue }) {
 
   const scaleOptions = {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     animationData: scaleAnimation,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
