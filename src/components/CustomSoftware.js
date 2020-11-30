@@ -53,7 +53,7 @@ export default function CustomSoftware({ setSelectedIndex, setValue }) {
 
   const documentsOptions = {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     animationData: documentsAnimation,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
@@ -71,7 +71,7 @@ export default function CustomSoftware({ setSelectedIndex, setValue }) {
 
   const automationOptions = {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     animationData: automationAnimation,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",

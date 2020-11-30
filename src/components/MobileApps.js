@@ -46,7 +46,7 @@ export default function MobileApps({ setValue, setSelectedIndex }) {
 
   const defaultOptions = {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     animationData: integrationAnimation,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
